@@ -8,7 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <section class="wrapper">
+    <div class="wrapper">
     <header>
         <h1>Lone Starfish</h1>
     </header>
@@ -22,8 +22,7 @@
                             <li><a href="#">CONTACT</a></li>
                     </ul>
                 </nav>
-            </div>
-                
+            </div>               
             <div class="float">
                 <h2>Life of a Starfish</h2>
                 <img src="images/lone-starfish.jpg" alt="image of starfish">
@@ -40,40 +39,38 @@
                 </div>
                 <h4>Contact to learn more</h4>
                     <form action="newpage.html" method="get">
-                <div>
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div>
-                    <label for="email">Your Email</label>
-                    <input type="text" id="email" name="email">
-                </div>
-                <div>
-                    <label for="message">Your Message</label>
-                    <textarea id="textarea" name="message"></textarea> 
-                </div>
-                <div>
-                    <label for="question">Would you like to visit the starfish?</label>
-                </div>
-                <div class="style">
-                    <lable for="yes">Yes</lable>
-                    <input type="radio" id="yes" name="yes">
-                    <lable for="no">No</lable>
-                    <input type="radio" id="no" name="no">
-                    <lable for="maybe">Maybe</lable>
-                    <input type="radio" id="maybe" name="maybe">
-                </div>
-                <div>
-                    <button type="button">SEND</button>
-                </div>
+                        <div>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Your Email</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message"></textarea> 
+                        </div>
+                        <h5>Would you like to visit the starfish?</h5>
+                        <div class="style">
+                            <lable for="yes">Yes</lable>
+                            <input type="radio" id="yes" name="yes" value="yes">
+                            <lable for="no">No</lable>
+                            <input type="radio" id="no" name="no" value="no">
+                            <lable for="maybe">Maybe</lable>
+                            <input type="radio" id="maybe" name="maybe" value="maybe">
+                        </div>
+                        <div>
+                            <button type="button">SEND</button>
+                        </div>
                     </form>
-                <footer>
-                    <div class="footer">
+                    <div>
+                    <footer class="footer">
                         <p>@ Lone Starfish.</p> 
+                    </footer>
                     </div>
-                </footer>
         </article>
         </main>  
-    </section>
+    </div>
 </body>
 </html>
