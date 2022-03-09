@@ -9,6 +9,7 @@ html {
     box-sizing : inherit;
 }
 
+/* styles the body */
 body {
     background-color:#aad4cf;
     margin: 0;
@@ -24,17 +25,22 @@ body {
     background-color:  #d3eeeb;
 }
 
-header h1 {
-    color: white;
-    margin: 0;
-    font-size: 38px;
-    font-weight: normal;
-    padding-left: 280px;
-    padding-top:150px;
+/* styles the header */
+.header .image {
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
     background-size: 50rem;
     height: 230px;
+}
+
+.header .text {
+    color: white;
+    margin: 0;
+    font-size: 38px;
+    font-weight: normal;
+    position: absolute;
+    top: 150px;
+    right: 350px;
 }
 
 nav ul {
