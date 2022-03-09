@@ -38,9 +38,9 @@ body {
     margin: 0;
     font-size: 38px;
     font-weight: normal;
-    position: absolute;
-    top: 150px;
-    right: 350px;
+    position: relative;
+    left:300px;
+    top: -80px;
 }
 
 nav ul {
