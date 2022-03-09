@@ -44,7 +44,8 @@ body {
 }
 
 nav ul {
-    margin-top: -60px;
+    position: relative;
+    top: -75px;
     text-align: center;
 } 
 
@@ -72,8 +73,9 @@ li a {
 h2{
     font-size: 25px;
     font-weight: normal;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 0;
+    margin-top: -50px;
 }
 
 /* float */
