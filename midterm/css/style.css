@@ -43,13 +43,15 @@ body {
 }
 
 nav ul {
-    position: fixed;
-    top: 220px;
-} 
+    position:relative;
+    top: -70px;
+    right: 5px;
+}
 
 nav li{
     display: inline;
     font-size: 20px;
+
 }
 
 /* Add a gray right border to all list items, except the last item (last-child) */
@@ -65,7 +67,8 @@ li a {
     color: black;
     text-decoration: none;
     margin-bottom: 10px;
-    padding:85px ;
+    padding:90px;
+   
 }
 
 h2{
@@ -73,7 +76,7 @@ h2{
     font-weight: normal;
     padding: 10px;
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: -60px;
 }
 
 /* float */
